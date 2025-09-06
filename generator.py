@@ -20,7 +20,7 @@ signal_samples = np.repeat(polar_bits, nS)
 print("Polarni signal (odbirci):", signal_samples)
 
 # Opcionalno: prikaz signala
-plt.stem(signal_samples, use_line_collection=True)
+plt.stem(signal_samples)
 plt.title("Polarni signal po odbircima")
 plt.xlabel("Odbirak")
 plt.ylabel("Amplituda")
